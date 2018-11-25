@@ -48,8 +48,7 @@
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 </head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
     <div class="content index py4">
         
           <header id="header">
@@ -75,7 +74,7 @@
        
         <li><a href="/archives/">Writing</a></li>
        
-        <li><a href="/projects_url">Projects</a></li>
+        <li><a href="/./#projects">Projects</a></li>
       
     </ul>
   </div>
@@ -84,7 +83,7 @@
         
         <section id="about">
   
-    <p>Hello, I’m currently pursuing my master’s degree in computer science at the <a href="https://cs.washington.edu/">University of Washington</a>. My interests lie in machine learning and AI, with an emphasis on natural language processing. Currently, I’m a research assistant in <a href="http://www.ark.cs.washington.edu/">Noah’s ARK</a>. My work aims to uncover latent structure in natural language using neural and Bayesian methods. <br> <br> Here is my <a href="./resume.pdf">CV</a></p>
+    <p>Hello, I’m currently pursuing my master’s degree in computer science at the <a href="https://cs.washington.edu/">University of Washington</a>. My interests lie in machine learning and AI, with an emphasis on natural language processing. Currently, I’m a research assistant in <a href="http://www.ark.cs.washington.edu/">Noah’s ARK</a>. My work aims to uncover latent structure in natural language using neural and Bayesian methods. <br> <br> Here is my <a href="./resume.pdf">CV</a>.</p>
 
   
   
@@ -102,7 +101,7 @@
         
       
         
-          <a class="icon" target="_blank" href="/dangitstam">
+          <a class="icon" target="_blank" href="http://twitter.com/dangitstam">
             <i class="fab fa-twitter"></i><!--
       ---></a> &nbsp; <!-- 
     ---><!--
@@ -110,15 +109,7 @@
         
       
         
-          <a class="icon" target="_blank" href="/">
-            <i class="fab fa-facebook"></i><!--
-      ---></a> &nbsp; <!-- 
-    ---><!--
-    --->  
-        
-      
-        
-          <a class="icon" target="_blank" href="/www.linkedin.com/in/dang-tam">
+          <a class="icon" target="_blank" href="http://www.linkedin.com/in/dang-tam">
             <i class="fab fa-linkedin"></i><!--
       ---></a> &nbsp; <!-- 
     ---><!--
@@ -148,7 +139,7 @@
       <li class="post-item">
         
     <div class="meta">
-        <time datetime="2018-11-25T00:58:38.010Z" itemprop="datePublished">2018-11-24</time>
+        <time datetime="2018-11-25T07:44:38.208Z" itemprop="datePublished">2018-11-24</time>
     </div>
 
 
@@ -171,12 +162,22 @@
   <ul class="project-list">
     
       <li class="project-item">
-        <a href="https://github.com/dangitstam/Research/">Towards Semi-Supervised Text Classification</a>: <p>My research towards better utilizing unlabelled, in-domain data for text classification using variational methods.</p>
+        <a href="https://github.com/dangitstam/Research/">Towards Semi-Supervised Text Classification</a>: <p>My research towards better utilizing unlabelled, in-domain data for text classification</p>
 
       </li>
     
       <li class="project-item">
-        <a href="https://github.com/dangitstam/Research/">Le Traducteur</a>: <p>A neural machine-translation framework built with AllenNLP</p>
+        <a href="https://github.com/dangitstam/le=traducteur/">Le Traducteur</a>: <p>A neural machine-translation framework built with AllenNLP</p>
+
+      </li>
+    
+      <li class="project-item">
+        <a href="https://github.com/dangitstam/Twitter_Viterbi">Vectorized Viterbi</a>: <p>A simple, fast part-of-speech tagger for tweets</p>
+
+      </li>
+    
+      <li class="project-item">
+        <a href="https://github.com/dangitstam/Twitter_Viterbi">Protein Alignment</a>: <p>Using the Smith-Waterman algorithm to finding optimal alignments between proteins</p>
 
       </li>
     
@@ -199,7 +200,7 @@
          
           <li><a href="/archives/">Writing</a></li>
          
-          <li><a href="/projects_url">Projects</a></li>
+          <li><a href="/./#projects">Projects</a></li>
         
       </ul>
     </nav>
@@ -207,6 +208,21 @@
 </footer>
 
     </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
 <!-- styles -->

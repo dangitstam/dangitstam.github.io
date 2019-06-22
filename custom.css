@@ -1,10 +1,17 @@
 
+#bio {
+    max-width: 360px;
+}
 
 .column {
     padding: 0 1.5em;
     display: block;
     float: left;
     min-width: 360px;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 #content {
@@ -14,7 +21,7 @@
 }
 
 #footer {
-    padding: 1em;
+    padding: 2em 3.86em;
     margin: 0;
 }
 
@@ -24,18 +31,58 @@
 }
 
 #info {
-    max-width: 850px;
+    max-width: 900px;
 }
 
-@media (min-width: 720px) {
+#nav1 h1 {
+    display: inline;
+}
+
+#nav1 ul {
+    float: right;
+    padding-top: 0.8em !important;
+}
+
+#header #nav1 {
+  color: #a9b5ae;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+#header #nav1 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 15px;
+}
+#header #nav1 ul a {
+  margin-right: 15px;
+  color: color-accent-1;
+}
+
+#nav1 ul li {
+  display: inline-block;
+  margin-right: 15px;
+  /* border-right: 1px solid #a9b5ae; */
+  vertical-align: middle;
+}
+
+#nav1 ul li:last-child {
+  margin-right: 0;
+  border-right: 0;
+}
+
+/* @media (min-width: 720px) {
     #bio {
         max-width: 400px;
     }
-}
+} */
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
     #content {
         display: block;
+        padding: 1em 0;;
     }
 
     #bio, #info {
@@ -43,15 +90,6 @@
         float: none;
         width: 100%;
     }
-}
-
-#nav h1 {
-    display: inline;
-}
-
-#nav ul {
-    float: right;
-    padding-top: 0.8em !important;
 }
 
 .post-item p {
@@ -64,4 +102,8 @@ p {
 
 #title {
     float: left;
+}
+
+span {
+    color: #809287;
 }

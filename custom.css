@@ -1,0 +1,67 @@
+
+
+.column {
+    padding: 0 1.5em;
+    display: block;
+    float: left;
+    min-width: 360px;
+}
+
+#content {
+    padding: 1em;
+    display: flex;
+    width: 100%;
+}
+
+#footer {
+    padding: 1em;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    margin-bottom: 2.5em;
+}
+
+#info {
+    max-width: 850px;
+}
+
+@media (min-width: 720px) {
+    #bio {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #content {
+        display: block;
+    }
+
+    #bio, #info {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
+#nav h1 {
+    display: inline;
+}
+
+#nav ul {
+    float: right;
+    padding-top: 0.8em !important;
+}
+
+.post-item p {
+    margin: 0;
+}
+
+p {
+    font-size: 1em;
+}
+
+#title {
+    float: left;
+}

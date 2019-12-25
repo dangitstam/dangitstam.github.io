@@ -1,0 +1,23 @@
+[
+    {
+       "name":"Vampire",
+       "url":"https://github.com/allenai/vampire",
+       "desc":"My research towards better utilizing unlabelled, in-domain data for text classification."
+    },
+    {
+       "name":"Le Traducteur",
+       "url":"https://github.com/dangitstam/le-traducteur/",
+       "desc":"A neural machine translation framework built with AllenNLP."
+    },
+    {
+       "name": "Vectorized Viterbi",
+       "url": "https://github.com/dangitstam/Twitter_Viterbi",
+       "desc": "A simple, fast part-of-speech tagger for tweets."
+    },
+    {
+       "name": "GrapAL Verification",
+       "url": "https://github.com/dangitstam/grapal-verification",
+       "desc": "A verifier for GrapAL queies using Rosette."
+    }
+]
+

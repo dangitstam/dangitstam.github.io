@@ -1,0 +1,16 @@
+# Packages
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDEs
+*.log
+.idea/
+vscode/
+
+# Misc.
+.DS_Store
+.nyc_output/
+tmp/
+public/
+

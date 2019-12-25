@@ -419,7 +419,7 @@ body table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 18px;
+  font-size: 12px;
   overflow: auto;
   display: block;
 }
@@ -428,7 +428,7 @@ body th {
   border-bottom: 1px dashed #666;
   color: #383838;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 13px;
 }
 body td {
   padding: 0 8px;
@@ -463,7 +463,7 @@ body {
   color: #383838;
   font-display: swap;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   font-family: "Crimson Text", "Menlo", "Meslo LG", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -559,7 +559,7 @@ body {
     float: left;
   }
   #about-column {
-    width: 35%;
+    width: 32%;
     margin-right: 5%;
   }
   #header #nav {
@@ -567,12 +567,12 @@ body {
     float: right;
   }
   #news-header {
-    margin-top: 0;
+    margin-top: 1rem;
     text-align: left;
   }
 }
 .max-width {
-  max-width: 80rem;
+  max-width: 64rem;
 }
 @media (max-width: 480px) {
   .px3 {
@@ -1061,7 +1061,7 @@ body {
 #topics {
   text-align: center;
 }
-#news-header p {
+#news-column p {
   margin-top: 0;
 }
 @media (min-width: 480px) {
@@ -1410,7 +1410,7 @@ article .content .caption {
   color: #fff;
   font-display: swap;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 11.200000000000001px;
   font-family: "Crimson Text", "Menlo", "Meslo LG", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;

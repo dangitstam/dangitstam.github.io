@@ -570,10 +570,6 @@ body {
     margin-top: 1rem;
     text-align: left;
   }
-  .post-list {
-    width: 80%;
-    margin: 1rem auto;
-  }
 }
 .max-width {
   max-width: 64rem;
@@ -1066,6 +1062,10 @@ body {
 }
 #news-column p {
   margin-top: 0;
+}
+#writing .post-list {
+  width: 80%;
+  margin: 1rem auto;
 }
 @media (min-width: 480px) {
   .post-list .post-item {

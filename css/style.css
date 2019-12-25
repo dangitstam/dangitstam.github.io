@@ -1067,6 +1067,13 @@ body {
   width: 80%;
   margin: 1rem auto;
 }
+#topics .h2 {
+  display: inline;
+}
+#topics .h2,
+#topics a {
+  margin-right: 1rem;
+}
 @media (min-width: 480px) {
   .post-list .post-item {
     display: flex;

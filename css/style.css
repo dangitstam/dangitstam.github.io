@@ -570,6 +570,10 @@ body {
     margin-top: 1rem;
     text-align: left;
   }
+  .post-list {
+    width: 80%;
+    margin: 1rem auto;
+  }
 }
 .max-width {
   max-width: 64rem;

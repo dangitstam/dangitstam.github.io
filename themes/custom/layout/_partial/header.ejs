@@ -9,7 +9,7 @@
       <div id="logo" style="background-image: url(<%- url_for(theme.logo.url) %>);"></div>
     <% } %>
   <% } %>
-  <% if (theme.logo.text == "") { %>
+  <% if (theme.logo.show_text) { %>
     <div id="title">
       <h1><%= config.title %></h1>
     </div>

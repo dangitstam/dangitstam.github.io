@@ -437,6 +437,7 @@ body td {
 body span.emphasize {
   color: #809287;
   font-weight: 900;
+  font-size: 2rem;
 }
 @font-face {
   font-style: normal;
@@ -571,6 +572,9 @@ body {
   #news-header {
     margin-top: 0;
     text-align: left;
+  }
+  span.emphasize {
+    font-size: 2rem;
   }
 }
 .max-width {

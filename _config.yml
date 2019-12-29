@@ -6,15 +6,16 @@
 title: Tam Dang
 subtitle: ''
 description: "
-Hello, my name is <span class='emphasize'>Tam Dang</span>. I recently graduated with my master’s degree in
+<span class='emphasize'>Hello, my name is Tam Dang. I'm currently a software engineer at <a href='https://www.xevo.com'>Xevo</a> helping to improve the driving experience.</span>
+
+
+I recently graduated with my master’s degree in
 computer science at the <a href='https://cs.washington.edu/'>University of Washington</a>. My interests lie in machine learning,
 with an emphasis on natural language processing.  
 
 
 I am a master's alumnus of <a href='http://www.ark.cs.washington.edu/'>Noah’s ARK</a>: a collection of researchers within the <a href='https://nlp.washington.edu/'>UW NLP group</a> advised by <a href='https://homes.cs.washington.edu/~nasmith'>Noah Smith</a>.  
 
-
-I'm currently a software engineer at <a href='https://www.xevo.com'>Xevo</a> helping to improve the driving experience.
 "
 keywords:
 author: Tam Dang

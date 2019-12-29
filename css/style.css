@@ -555,12 +555,14 @@ body {
     flex: 1 0 65%;
   }
   #about-column,
-  #news_column {
-    float: left;
+  #news-column,
+  #writing,
+  #projects {
+    width: 67%;
+    margin-bottom: 5rem;
   }
-  #about-column {
-    width: 32%;
-    margin-right: 5%;
+  #header {
+    margin-bottom: 7rem !important;
   }
   #header #nav {
     margin-top: 15px;
@@ -572,7 +574,7 @@ body {
   }
 }
 .max-width {
-  max-width: 64rem;
+  max-width: 76rem;
 }
 @media (max-width: 480px) {
   .px3 {
@@ -1055,17 +1057,8 @@ body {
   color: #666;
   font-size: 14px;
 }
-.h1,
-.h2,
-#topics {
-  text-align: center;
-}
 #news-column p {
   margin-top: 0;
-}
-#writing .post-list {
-  width: 80%;
-  margin: 1rem auto;
 }
 #topics .h2 {
   display: inline;
@@ -1086,12 +1079,10 @@ body {
 .project-list {
   padding: 0;
   list-style: none;
-  width: 80%;
-  text-align: center;
   margin: 20px auto 100px auto;
 }
 .project-list .project-item {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .project-list .project-item p {
   display: inline;

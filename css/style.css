@@ -455,7 +455,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #e2e0de;
+  background-color: #fff;
   color: #363533;
   font-display: swap;
   font-weight: 400;
@@ -899,7 +899,7 @@ body {
   z-index: 5000000;
   width: 100%;
   border-top: 1px solid #666;
-  background: #dedcd9;
+  background: #fafafa;
   transition: opacity 0.2s;
 }
 #footer-post a {
@@ -916,7 +916,7 @@ body {
 #footer-post #nav-footer {
   padding-right: 1rem;
   padding-left: 1rem;
-  background: #cdcac6;
+  background: #e6e6e6;
   text-align: center;
 }
 #footer-post #nav-footer a {
@@ -960,7 +960,7 @@ body {
 #footer-post #share-footer {
   padding-right: 1rem;
   padding-left: 1rem;
-  background: #cdcac6;
+  background: #e6e6e6;
   text-align: center;
 }
 #footer-post #share-footer ul {
@@ -980,7 +980,7 @@ body {
   clear: both;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #cdcac6;
+  background: #e6e6e6;
   text-align: left;
 }
 #footer-post #toc-footer ol {
@@ -1325,7 +1325,7 @@ article .content .caption {
   outline: none;
   border: solid 1px #666;
   border-radius: 5px;
-  background-color: #e2e0de;
+  background-color: #fff;
   color: #363533;
   font-size: 1.2rem;
   -webkit-border-radius: 5px;
@@ -1385,7 +1385,7 @@ article .content .caption {
   display: none;
   padding: 0.2em 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #e2e0de;
+  color: #fff;
   font-display: swap;
   font-weight: 400;
   font-size: 13.600000000000001px;
@@ -1590,7 +1590,7 @@ code {
   margin: 1rem 0;
   padding: 10px 15px;
   border-radius: 4px;
-  background: #dedcd9;
+  background: #fafafa;
   font-family: "Crimson Text", serif;
   -webkit-border-radius: 4px;
 }
